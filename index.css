@@ -64,24 +64,27 @@ body{
  
 .action-section {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content:space-between;    
+  text-align: center;
   background-color:#f0f4ff  ;
   padding: 10px 30px;
   border-radius: 8px;
   gap: 40px;
   max-width: 1000px;
-  margin:116px 159px 116px 144px;;
+  margin:auto;
   background-size: cover;
 }
 
 .action-left {
   flex: 1;
   text-align: left;
+  width:500px ;
 }
 .action-right {
   flex: 1;
   text-align: right;
+  width: 500px;
+
 }
 
 .action-title {
@@ -102,7 +105,7 @@ body{
 .action-image {
   max-width: 100%;
   height: auto;
-  border-radius: 20px;
+  border-radius: 30px;
 }
 .item-user{
     background-color:#f0f4ff ;
